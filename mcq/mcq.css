@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-color: #B0B8FF;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
