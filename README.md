@@ -1,4 +1,4 @@
-# Created by HTML, CSS, and Javascript
+# Created a quiz app by using HTML, CSS, and Javascript.
 
 Live link [Quiz App](https://sunny-tanuki-d0e903.netlify.app/home.html).
 
