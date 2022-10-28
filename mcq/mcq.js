@@ -118,7 +118,7 @@ function updateCountDown() {
     time--;
 
     if (minutes === '00') {
-        window.location.href = "https://nahid51.github.io/quiz-app/time-out/time-out.html"
+        window.location.href = "https://sunny-tanuki-d0e903.netlify.app/time-out/time-out.html"
     }
 };
 
