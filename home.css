@@ -5,10 +5,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 body {
     background-color: #E0CABC;
-    width: 1920px;
-    height: 1080px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .home_position {
@@ -18,8 +20,8 @@ body {
 }
 
 .left_side>img {
-    width: 985px;
-    height: 1062px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .right_side {
@@ -43,7 +45,6 @@ body {
     font-size: 35px;
     font-weight: 600;
     color: #373434;
-
 }
 
 .right_card>p {
@@ -51,8 +52,8 @@ body {
     font-weight: 300;
     color: #373434;
     margin: 27.25px 0;
-
 }
+
 
 .right_card>a>button {
     font-size: 25px;
