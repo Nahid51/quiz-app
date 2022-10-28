@@ -101,7 +101,7 @@ const quizDB = [
     }
 ];
 
-const startingMinit = 5;
+const startingMinit = 10;
 let time = startingMinit * 60;
 const countDownEl = document.querySelector('#countDown');
 setInterval(updateCountDown, 1000);
@@ -118,7 +118,7 @@ function updateCountDown() {
     time--;
 
     if (minutes === '00') {
-        window.location.href = "file:///D:/quiz-app/time-out/time-out.html"
+        window.location.href = "https://nahid51.github.io/quiz-app/time-out/time-out.html"
     }
 };
 
