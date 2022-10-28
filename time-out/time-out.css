@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(269.85deg, #FF646D 0.12%, #F45656 99.86%);
+    display: grid;
+    place-items: center;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.timeout-card {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 24px 45px 47px;
+    border-radius: 20px;
+}
+
+.timeout-card>img {
+    width: 272px;
+    height: 259px;
+}
+
+.timeout-card>h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+    margin: 27px 45px;
+    text-transform: uppercase;
+}
+
+.timeout-card>a>button {
+    width: 344px;
+    height: 70px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.timeout-card>a>button:hover {
+    background-color: #342d2d;
+}

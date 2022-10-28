@@ -5,19 +5,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- font style -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Rosario&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="./mcq.css">
-    <title>MCQ App | mcq</title>
+    <title>Quiz</title>
 </head>
 
 <body>
-    mcq
+    <form name="quiz" id="quiz" action="../result/result.html">
+        <div class="main-div header-div">
+            <h2 id="countDown">Remaining Time: 00:00:00</h2>
+            <button onclick="check()">submit</button>
+        </div>
 
-    <script src="../mcq/mcq.js"></script>
+        <div class="main-div">
+            <h2 class="question1">question 1</h2>
+            <p><input onchange="enableDisable()" id="qValue1" type="radio" name="question1" value="eat">eat</p>
+            <p><input onchange="enableDisable()" id="qValue2" type="radio" name="question1" value="ate">ate</p>
+            <p><input onchange="enableDisable()" id="qValue3" type="radio" name="question1" value="eaten">eaten</p>
+            <p><input onchange="enableDisable()" id="qValue4" type="radio" name="question1" value="have ate">have ate
+            </p>
+        </div>
+        <div class="main-div">
+            <h2 class="question2">question 2</h2>
+            <p><input onchange="enableDisable2()" id="qValue5" type="radio" name="question2" value="I eat rice">I eat
+                rice</p>
+            <p><input onchange="enableDisable2()" id="qValue6" type="radio" name="question2" value="I am eating rice">I
+                am eating rice</p>
+            <p><input onchange="enableDisabl2()" id="qValue7" type="radio" name="question2" value="I have eaten rice">I
+                have eaten rice</p>
+            <p><input onchange="enableDisabl2()" id="qValue8" type="radio" name="question2"
+                    value="I have been eating rice for 1 year">I have been eating rice
+                for 1 year</p>
+        </div>
+        <div class="main-div">
+            <h2 class="question3">question 3</h2>
+            <p><input onchange="enableDisable3()" id="qValue9" type="radio" name="question3" value="I eat rice">I eat
+                rice</p>
+            <p><input onchange="enableDisable3()" id="qValue10" type="radio" name="question3" value="I am eating rice">I
+                am eating rice</p>
+            <p><input onchange="enableDisable3()" id="qValue11" type="radio" name="question3"
+                    value="I have eaten rice">I have eaten rice</p>
+            <p><input onchange="enableDisable3()" id="qValue12" type="radio" name="question3"
+                    value="I have been eating rice for 1 year">I have been eating rice
+                for 1 year</p>
+        </div>
+        <div class="main-div">
+            <h2 class="question4">question 4</h2>
+            <p><input onchange="enableDisable4()" id="qValue13" type="radio" name="question4" value="I eat rice">I eat
+                rice</p>
+            <p><input onchange="enableDisable4()" id="qValue14" type="radio" name="question4" value="I am eating rice">I
+                am eating rice</p>
+            <p><input onchange="enableDisable4()" id="qValue15" type="radio" name="question4"
+                    value="I have eaten rice">I have eaten rice</p>
+            <p><input onchange="enableDisable4()" id="qValue16" type="radio" name="question4"
+                    value="I have been eating rice for 1 year">I have been eating rice
+                for 1 year</p>
+        </div>
+        <div class="main-div">
+            <h2 class="question5">question 5</h2>
+            <p><input onchange="enableDisable5()" id="qValue17" type="radio" name="question5" value="I eat rice">I eat
+                rice</p>
+            <p><input onchange="enableDisable5()" id="qValue18" type="radio" name="question5"
+                    value="I was eating rice">I was eating rice</p>
+            <p><input onchange="enableDisable5()" id="qValue19" type="radio" name="question5"
+                    value="I have eaten rice">I have eaten rice</p>
+            <p><input onchange="enableDisable5()" id="qValue20" type="radio" name="question5"
+                    value="I have been eating rice for 1 year">I have been eating rice
+                for 1 year</p>
+        </div>
+        <div class="main-div">
+            <h2 class="question6">question 6</h2>
+            <p><input onchange="enableDisable6()" id="qValue21" type="radio" name="question6" value="I eat rice">I eat
+                rice</p>
+            <p><input onchange="enableDisable6()" id="qValue22" type="radio" name="question6"
+                    value="I was eating rice">I was eating rice</p>
+            <p><input onchange="enableDisable6()" id="qValue23" type="radio" name="question6"
+                    value="I have eaten rice">I have eaten rice</p>
+            <p><input onchange="enableDisable6()" id="qValue24" type="radio" name="question6"
+                    value="I have been eating rice for 1 year">I have been eating rice
+                for 1 year</p>
+        </div>
+        <div class="main-div">
+            <h2 class="question7">question 7</h2>
+            <p><input onchange="enableDisable7()" id="qValue25" type="radio" name="question7" class="dis-able"
+                    value="I eat rice">I eat rice</p>
+            <p><input onchange="enableDisable7()" id="qValue26" type="radio" name="question7" class="dis-able"
+                    value="I was eating rice">I was eating rice</p>
+            <p><input onchange="enableDisable7()" id="qValue27" type="radio" name="question7" class="dis-able"
+                    value="I have eaten rice">I have eaten rice</p>
+            <p><input onchange="enableDisable7()" id="qValue28" type="radio" name="question7" class="dis-able"
+                    value="I have been eating rice for 1 year">I have
+                been eating rice
+                for 1 year</p>
+        </div>
+        <div class="main-div">
+            <h2 class="question8">question 8</h2>
+            <p><input onchange="enableDisable8()" id="qValue29" type="radio" name="question8" value="I eat rice">I eat
+                rice</p>
+            <p><input onchange="enableDisable8()" id="qValue30" type="radio" name="question8"
+                    value="I will be eating rice">I will be eating rice</p>
+            <p><input onchange="enableDisable8()" id="qValue31" type="radio" name="question8"
+                    value="I have eaten rice">I have eaten rice</p>
+            <p><input onchange="enableDisable8()" id="qValue32" type="radio" name="question8"
+                    value="I have been eating rice for 1 year">I have been eating rice
+                for 1 year</p>
+        </div>
+        <div class="main-div">
+            <h2 class="question9">question 9</h2>
+            <p><input onchange="enableDisable9()" id="qValue33" type="radio" name="question9" value="I eat rice">I eat
+                rice</p>
+            <p><input onchange="enableDisable9()" id="qValue34" type="radio" name="question9"
+                    value="I will be eating rice">I will be eating rice</p>
+            <p><input onchange="enableDisable9()" id="qValue35" type="radio" name="question9"
+                    value="I will have eaten rice">I will have eaten rice</p>
+            <p><input onchange="enableDisable9()" id="qValue36" type="radio" name="question9"
+                    value="I have been eating rice for 1 year">I have been eating rice
+                for 1 year</p>
+        </div>
+        <div class="main-div">
+            <h2 class="question10">question 10</h2>
+            <p><input onchange="enableDisable10()" id="qValue37" type="radio" name="question10" value="I eat rice">I eat
+                rice</p>
+            <p><input onchange="enableDisable10()" id="qValue38" type="radio" name="question10"
+                    value="I will be eating rice">I will be eating rice</p>
+            <p><input onchange="enableDisable10()" id="qValue39" type="radio" name="question10"
+                    value="I will have eaten rice">I will have eaten rice</p>
+            <p><input onchange="enableDisable10()" id="qValue40" type="radio" name="question10"
+                    value="I will have been eating rice for 1 year">I will have been
+                eating
+                rice
+                for 1 year</p>
+        </div>
+    </form>
+
+    <script src="./mcq.js"></script>
 </body>
 
 </html>

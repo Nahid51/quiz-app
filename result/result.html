@@ -5,11 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font style -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Rosario&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./result.css">
     <title>MCQ App | result</title>
 </head>
 
 <body>
-    result
+    <div class="result-card">
+        <img src="../images/congrats.png" alt="greting">
+        <h2>MCQ Result</h2>
+        <p>
+            You Got <span id="result"></span> Score
+        </p>
+        <a href="../mcq/mcq.html">
+            <button>start again</button>
+        </a>
+    </div>
+
+    <script>
+        document.getElementById("result").innerHTML = localStorage.getItem("sumResult");
+    </script>
 </body>
 
 </html>

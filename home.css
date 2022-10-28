@@ -63,4 +63,9 @@ body {
     height: 70px;
     border-radius: 5px;
     cursor: pointer;
+    transition: .3s;
+}
+
+.right_card>a>button:hover {
+    background-color: #342d2d;
 }
