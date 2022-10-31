@@ -4,7 +4,7 @@ Live link [Quiz App](https://sunny-tanuki-d0e903.netlify.app/home.html).
 
 ## Available Scripts
 
-This app is made for desktop version (Resulation: 1920 * 1080)
+This app is made for desktop version (1920 * 1080)
 
 ### `Description`
 
